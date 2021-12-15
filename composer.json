@@ -1,0 +1,24 @@
+{
+    "name": "surazdott/laravel-helper",
+    "description": "Application Helper Function for Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Surazdott\\LaravelHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Suraj Datheputhe",
+            "email": "surajdatheputhe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3|^8.0",
+    },
+    "autoload": {
+        "files": [
+            "src/ApplicationHelper.php"
+        ]
+    },
+}
